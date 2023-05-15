@@ -38,6 +38,7 @@ def ConfidentialityAttack():
     Dict_of_State_7_options = {}
     Dict_of_State_7_options["Option1"] = ["unattempted", "unattempted"]
 
+    global Final_Statement
     Final_Statement = ""
 
     def Confidentiality_Attack_State1():

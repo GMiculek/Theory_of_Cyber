@@ -27,6 +27,7 @@ def AuthenticationAttack():
     Dict_of_State_5_options["Option1"] = ["unattempted", "unattempted"]
 
 
+    global Final_Statement
     Final_Statement = ""
 
     def Authentication_Attack_State1():

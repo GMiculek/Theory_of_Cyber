@@ -32,6 +32,7 @@ def AccessAttack():
     Dict_of_State_4_options["Option1"] = ["unattempted", "unattempted"]
 
 
+    global Final_Statement
     Final_Statement = ""
 
     def Access_Attack_State1():
@@ -363,7 +364,7 @@ def AccessAttack():
 
         else:
             input("\nPlease enter only the provided options. Press Enter to continue...")
-            Access_Attack_State7() #reruns function if what was inputted was not an answer choice  
+            Access_Attack_State4() #reruns function if what was inputted was not an answer choice  
             
             
             

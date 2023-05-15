@@ -38,8 +38,8 @@ def main():
     elif(userSelection == 3):
         Confidentiality_Attack.ConfidentialityAttack()
     
-    userExit = input("Attack complete. Would you like to run another attack?\n\
-                     enter y to rerun, or enter anything else to exit: ")
+    userExit = input("\n\nAttack complete. Would you like to run another attack?\n\
+                     \rEnter y to rerun, or enter anything else to exit: ")
     if (userExit == "y"):
         print("Rerunning program...")
         main()
