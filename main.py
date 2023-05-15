@@ -32,11 +32,11 @@ def main():
 
     #attack selection
     if(userSelection == 1):
-        Access_Attack.AccessAttack()
+        Access_Attack.Access_Attack_State1()
     elif(userSelection == 2):
-        Authentication_Attack.AuthenticationAttack()
+        Authentication_Attack.Authentication_Attack_State1()
     elif(userSelection == 3):
-        Confidentiality_Attack.ConfidentialityAttack()
+        Confidentiality_Attack.Confidentiality_Attack_State1()
     
     userExit = input("\n\nAttack complete. Would you like to run another attack?\n\
                      \rEnter y to rerun, or enter anything else to exit: ")
