@@ -1,0 +1,31 @@
+CYEN 480-001 TERM PROJECT
+5/16/23
+By: Dustin Smith, Garrett Miculek, and Wilbert Collins
+
+TLDR: Just run main.py with no additional initial args
+
+Overview:
+This python code is the implementation of the algorithms
+presented in "Situational Awareness for Smart Home IoT 
+Security via Finite State Automata Based Attack Modeling",
+created by F. James, I. Ray and D. Medhi and published
+by IEEE (full citation below). There are four python files,
+labeled main, Access_Attack, Authentication_Attack, and
+Confidentiality_Attack. Main is the unifying body of the
+program, which when run asks the user which attack they
+wish to perform, and executes that attack by calling the
+respective python file. It also handles restarting of the
+program if the user wishes to run multiple attacks in
+sequence. Each of the other three python files contain the
+functions and code necessary to simulate one of the three
+attack FSA's provided in the original paper.
+
+Academic Paper Citation:
+F. James, I. Ray and D. Medhi, 
+"Situational Awareness for Smart Home IoT Security via 
+Finite State Automata Based Attack Modeling," 
+2021 Third IEEE International Conference on Trust, Privacy 
+and Security in Intelligent Systems and Applications (TPS-ISA), 
+Atlanta, GA, USA, 2021, pp. 61-69, 
+doi: 10.1109/TPSISA52974.2021.00007.
+https://ieeexplore.ieee.org/document/9750263
