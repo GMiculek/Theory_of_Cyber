@@ -20,6 +20,20 @@ sequence. Each of the other three python files contain the
 functions and code necessary to simulate one of the three
 attack FSA's provided in the original paper.
 
+Credit for code:
+main.py:
+	Primary - Dustin Smith
+	Additional fixes - Garrett Miculek
+Access_Attack.py:
+	Primary - Garrett Miculek
+	Additional fixes - Dustin Smith
+Authentication_Attack.py:
+	Primary - Garrett Miculek
+	Additional fixes - Dustin Smith
+Confidentiality_Attack.py:
+	Primary - Garrett Miculek
+	Additional fixes - Dustin Smith 
+
 Academic Paper Citation:
 F. James, I. Ray and D. Medhi, 
 "Situational Awareness for Smart Home IoT Security via 
